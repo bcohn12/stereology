@@ -18,3 +18,25 @@ Introduction, Methods, Results, and Discussion written (with results-based discu
 Code the analysis techniques required to generate the plots.
 All figures finalized by 
 Manuscript ready for peer review
+
+
+##What is the problem? 
+Cell density mapping of the rear surface of the eye has been a useful and widely used method of visualizing and comparing vision. Used in human-clinical, animal experimental, dissections, and in evolutionary comparisons, retinal mapping has a wide breadth of usage in the scientific community, with X papers with over Y citations in 2014 alone.
+
+##Please summarize the problem domain and statement and the relevance of the problem to the general readership of the journal—in the case of PLOS Computational Biology, the biological research community or a substantial subcommunity. 
+What is that subcommunity? How relevant is the problem to them?
+##What is the innovation?
+We advance the state of the art by identifying two issues in modern cell density mapping:
+1. Improper cell density estimation with stereological technique.
+2. Improper sample size for cell counts across a retinal wholemount.
+
+We provide a definitive tool for identifying an effective sampling size for a retinal sample, and identified that stereological cell population estimation is unfit for cell density distributions on retinae.
+
+Here it is important that you give enough detail on your contribution to allow the Editorial Board to form an image of the substance and relevance of the advance over the state of the art in the field and over your previous work. If your paper presents material that rests on or is related to your own previous publications, this entails addressing dual publication issues. In order to argue your point, you have to summarize the state of the art on which you base your contribution and give the essential ingredients of your innovation. Depending on the journal, the innovation can take different shapes: a contribution to technology or experimental design, a biological finding, a methodical or theoretical piece of work, etc. For papers in the Methods section of PLOS Computational Biology, the computational method is expected to be at the center of the innovation. This section is not for papers whose methodical core has been published elsewhere and for which you present a—possibly extended or modified—application scenario. Also, studies presenting a comparative assessment of existing methods on an application domain are not within the scope of a Methods paper. We expect a concrete and specific relationship to underlying biological issues. This is why general methods on statistical learning that find their application in biology as well as in other fields of science are typically not considered in scope, unless the paper focuses on sufficiently deep issues of the configuration of the method that are specific to biology. Finally, the method must be the major innovation of the paper. However interesting it may be, a biological finding that has been obtained with methods that are prepublished or only minor modification of prepublished methods is not within the scope of the Methods papers category. (On the other hand, it may be a suitable General research paper for the journal.)
+##How is the method validated?
+Validation can take manifold forms but is a key element in most scientific papers.
+"A validation purely on synthetic data is not sufficient either. Rather, the validation must make a convincing argument for the general applicability of the method in a substantial biological problem domain."
+
+
+##How is the method being made available?
+Our code is available via an Open Source GitHub repository with the MIT license; to maintain code reliability and maintenance, we regenerate all code and figures continuously on Travis-CI and ShareLatex, respectively. To replicate our results, one can clone the repository, follow the usage protocol [Link] and run the code. Our methods are tested in Linux.
