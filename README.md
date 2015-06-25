@@ -6,14 +6,18 @@ However, there are two main (and different) aims in visual ecology:
 (1) topographic distribution of cells
 (2) get estimates of total number of cells (photoreceptors, ganglion cells, etc.)
 
+
+
+##Research Question
+
 So, maybe we should ask two questions:
 (1) How many sampling sites are required to accurately describe the topography of a (sometimes) very complex surface?
 (2) Given the non-uniform distribution of cells across the retina, is stereology (optical fractionator) the correct way to estimate the number of cells in the whole retina?
 
-##Research Question
+
 "Is there an optimal number of sampling sites to survey a retinal wholemount, such that it reduces the total number of sites, is still conducive to low-error smoothing, and the result will match an independent sampling on an alternative grid?"
 
-We look to provide reasonable tips for selecting a good sample number.
+We look to provide reasonable tips for selecting a sample number that guarantees accurate results while minimizing time and effort.
 
 ##Methods
 Stochastic permutation and consider the robustness of our findings, thereby giving a solid number of sampling sites that would be optimal for the mouse retina.
